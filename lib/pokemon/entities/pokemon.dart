@@ -6,13 +6,6 @@ class Pokemon {
   late List<String> type;
   late String height;
   late String weight;
-  late String candy;
-  int candyCount = 0;
-  late String egg;
-  late double spawnChance;
-  late double avgSpawns;
-  late String spawnTime;
-  List<double> multipliers = [];
   late List<String> weaknesses;
   List<NextEvolution>? nextEvolution = [];
   List<PrevEvolution>? prevEvolution = [];
@@ -25,13 +18,6 @@ class Pokemon {
     required this.type,
     required this.height,
     required this.weight,
-    required this.candy,
-    this.candyCount = 0,
-    required this.egg,
-    required this.spawnChance,
-    required this.avgSpawns,
-    required this.spawnTime,
-    this.multipliers = const [],
     required this.weaknesses,
     this.nextEvolution = const [],
     this.prevEvolution = const [],
@@ -45,13 +31,6 @@ class Pokemon {
     type = (json['type'] as List).cast<String>();
     height = json['height'] as String;
     weight = json['weight'] as String;
-    candy = json['candy'] as String;
-    candyCount = (json['candy_count'] ?? 0) as int;
-    egg = json['egg'] as String;
-    spawnChance = json['spawn_chance'] * 1.0 as double;
-    avgSpawns = json['avg_spawns'] * 1.0 as double;
-    spawnTime = json['spawn_time'] as String;
-    multipliers = ((json['multipliers'] ?? []) as List).cast<double>();
     weaknesses = (json['weaknesses'] as List).cast<String>();
 
     if (json['next_evolution'] != null) {

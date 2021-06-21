@@ -55,21 +55,14 @@ void main() {
       expect(result.id, equals(expectedPokemon.id));
       expect(result.name, equals(expectedPokemon.name));
       expect(result.num, equals(expectedPokemon.num));
-      expect(result.avgSpawns, equals(expectedPokemon.avgSpawns));
-      expect(result.candy, equals(expectedPokemon.candy));
-      expect(result.candyCount, equals(expectedPokemon.candyCount));
-      expect(result.egg, equals(expectedPokemon.egg));
       expect(result.height, equals(expectedPokemon.height));
       expect(result.img, equals(expectedPokemon.img));
-      expect(result.multipliers, equals(expectedPokemon.multipliers));
       expect(result.nextEvolution, isA<List<NextEvolution>>());
       expect(result.nextEvolution?.length,
           equals(expectedPokemon.nextEvolution?.length));
       expect(result.prevEvolution, isA<List<PrevEvolution>>());
       expect(result.prevEvolution?.length,
           equals(expectedPokemon.prevEvolution?.length));
-      expect(result.spawnTime, equals(expectedPokemon.spawnTime));
-      expect(result.spawnChance, equals(expectedPokemon.spawnChance));
       expect(result.type, equals(expectedPokemon.type));
       expect(result.weaknesses, equals(expectedPokemon.weaknesses));
       expect(result.weight, equals(expectedPokemon.weight));
@@ -92,21 +85,14 @@ void main() {
       expect(result.id, equals(expectedPokemon.id));
       expect(result.name, equals(expectedPokemon.name));
       expect(result.num, equals(expectedPokemon.num));
-      expect(result.avgSpawns, equals(expectedPokemon.avgSpawns));
-      expect(result.candy, equals(expectedPokemon.candy));
-      expect(result.candyCount, equals(expectedPokemon.candyCount));
-      expect(result.egg, equals(expectedPokemon.egg));
       expect(result.height, equals(expectedPokemon.height));
       expect(result.img, equals(expectedPokemon.img));
-      expect(result.multipliers, equals(expectedPokemon.multipliers));
       expect(result.nextEvolution, isA<List<NextEvolution>>());
       expect(result.nextEvolution?.length,
           equals(expectedPokemon.nextEvolution?.length));
       expect(result.prevEvolution, isA<List<PrevEvolution>>());
       expect(result.prevEvolution?.length,
           equals(expectedPokemon.prevEvolution?.length));
-      expect(result.spawnTime, equals(expectedPokemon.spawnTime));
-      expect(result.spawnChance, equals(expectedPokemon.spawnChance));
       expect(result.type, equals(expectedPokemon.type));
       expect(result.weaknesses, equals(expectedPokemon.weaknesses));
       expect(result.weight, equals(expectedPokemon.weight));
@@ -130,21 +116,14 @@ void main() {
       expect(result.id, equals(expectedPokemon.id));
       expect(result.name, equals(expectedPokemon.name));
       expect(result.num, equals(expectedPokemon.num));
-      expect(result.avgSpawns, equals(expectedPokemon.avgSpawns));
-      expect(result.candy, equals(expectedPokemon.candy));
-      expect(result.candyCount, equals(expectedPokemon.candyCount));
-      expect(result.egg, equals(expectedPokemon.egg));
       expect(result.height, equals(expectedPokemon.height));
       expect(result.img, equals(expectedPokemon.img));
-      expect(result.multipliers, equals(expectedPokemon.multipliers));
       expect(result.nextEvolution, isA<List<NextEvolution>>());
       expect(result.nextEvolution?.length,
           equals(expectedPokemon.nextEvolution?.length));
       expect(result.prevEvolution, isA<List<PrevEvolution>>());
       expect(result.prevEvolution?.length,
           equals(expectedPokemon.prevEvolution?.length));
-      expect(result.spawnTime, equals(expectedPokemon.spawnTime));
-      expect(result.spawnChance, equals(expectedPokemon.spawnChance));
       expect(result.type, equals(expectedPokemon.type));
       expect(result.weaknesses, equals(expectedPokemon.weaknesses));
       expect(result.weight, equals(expectedPokemon.weight));
@@ -168,21 +147,14 @@ void main() {
       expect(result.id, equals(expectedPokemon.id));
       expect(result.name, equals(expectedPokemon.name));
       expect(result.num, equals(expectedPokemon.num));
-      expect(result.avgSpawns, equals(expectedPokemon.avgSpawns));
-      expect(result.candy, equals(expectedPokemon.candy));
-      expect(result.candyCount, equals(expectedPokemon.candyCount));
-      expect(result.egg, equals(expectedPokemon.egg));
       expect(result.height, equals(expectedPokemon.height));
       expect(result.img, equals(expectedPokemon.img));
-      expect(result.multipliers, equals(expectedPokemon.multipliers));
       expect(result.nextEvolution, isA<List<NextEvolution>>());
       expect(result.nextEvolution?.length,
           equals(expectedPokemon.nextEvolution?.length));
       expect(result.prevEvolution, isA<List<PrevEvolution>>());
       expect(result.prevEvolution?.length,
           equals(expectedPokemon.prevEvolution?.length));
-      expect(result.spawnTime, equals(expectedPokemon.spawnTime));
-      expect(result.spawnChance, equals(expectedPokemon.spawnChance));
       expect(result.type, equals(expectedPokemon.type));
       expect(result.weaknesses, equals(expectedPokemon.weaknesses));
       expect(result.weight, equals(expectedPokemon.weight));
