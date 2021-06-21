@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../pokemon/entities/pokemon.dart';
+
+import '../../entities/pokemon.dart';
 import 'widgets/page_body.dart';
 
 class DetailsPage extends StatelessWidget {

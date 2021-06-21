@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:pokemon_app/pokemon/services/api/api_caller.dart';
 import 'package:provider/provider.dart';
 
-import '../home/page/home_page.dart';
 import '../pokemon/controller/pokemon_controller.dart';
+import '../pokemon/pages/home/home_page.dart';
+import '../pokemon/services/api/api_caller.dart';
 import '../pokemon/services/pokemon_service.dart';
 
 class MyApp extends StatelessWidget {

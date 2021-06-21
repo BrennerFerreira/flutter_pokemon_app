@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:dio/dio.dart';
 
-import '../../../common/constants.dart';
+import '../../common/constants.dart';
 import 'api_response.dart';
 
 class ApiCaller {

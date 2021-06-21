@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:pokemon_app/details/page/details_page.dart';
-import 'package:pokemon_app/pokemon/controller/pokemon_controller.dart';
-
 import 'package:provider/provider.dart';
 
-import '../../../pokemon/entities/pokemon.dart';
+import '../../../controller/pokemon_controller.dart';
+import '../../../entities/pokemon.dart';
+import '../details_page.dart';
 
 class PageBody extends StatelessWidget {
   final Pokemon pokemon;

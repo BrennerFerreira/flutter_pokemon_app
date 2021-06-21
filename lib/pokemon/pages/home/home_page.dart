@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../details/page/details_page.dart';
-import '../../pokemon/controller/pokemon_controller.dart';
+import '../../controller/pokemon_controller.dart';
+import '../details/details_page.dart';
 import 'widgets/float_action_button.dart';
 
 class HomePage extends StatelessWidget {
